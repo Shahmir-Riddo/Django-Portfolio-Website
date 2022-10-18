@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Contact
+{% endblock title %}
+
+
+{% block body %}
+<body>
+<form method="post" action="">
+{% csrf_token %}
+<section>
+<div class="title"><span><a target="_blanck" href="">Contact Me</span></a>
+   
+   
+    
+    <input type="username" class="message" name="name" placeholder="Enter Your Name">
+  
+    <input type="email" class="message" name="email" placeholder="Enter Your Email">
+    
+    <input type="text" class="desc" name="desc" placeholder="Description">
+
+    <button class="button3">Submit</button>
+
+</section>
+</body>
+
+
+
+
+{% endblock body %}
+
+
+
+
+
+
+
